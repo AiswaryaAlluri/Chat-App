@@ -9,7 +9,7 @@ dotenv.config(); // Load environment variables from .env file
 const messageModel = require('./Msgmodel'); // Importing the message model
 const app=express();
 
-mongoose.connect('mongodb+srv://Aiswarya:Aishu123@cluster0.xhsmsek.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('//your mongodb connection URL')
 .then(() => {
     console.log('Connected to MongoDB');
 }).catch(err => {
@@ -126,4 +126,5 @@ app.get('/getmsg', middleware, async (req, res) => {
         console.error(err);
         res.status(500).json({ error: 'Internal server error' });
     }
+
 });
