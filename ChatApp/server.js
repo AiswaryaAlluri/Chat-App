@@ -9,7 +9,7 @@ dotenv.config(); // Load environment variables from .env file
 const messageModel = require('./Msgmodel'); // Importing the message model
 const app=express();
 
-mongoose.connect('//your mongodb connection URL')//your url
+mongoose.connect('//your mongodb connection URL')//your Mongodb url
 .then(() => {
     console.log('Connected to MongoDB');
 }).catch(err => {
@@ -128,4 +128,5 @@ app.get('/getmsg', middleware, async (req, res) => {
     }
 
 });
+
 
