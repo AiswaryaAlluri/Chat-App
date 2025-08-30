@@ -37,16 +37,14 @@ chat-app/
 Clone the repository:
 
 git clone https://github.com/your-username/chat-app.git
-cd chat-app
 
+cd chat-app
 
 Open index.html in your browser.
 
 Start chatting in real-time!
 
-🎯 Future Enhancements
-
-Add authentication (login/signup)
+🎯 Future Enhancements:
 
 Store messages in a database
 
@@ -57,3 +55,5 @@ Mobile app version (React Native / Flutter)
 🤝 Contributing
 
 Contributions are welcome! Feel free to open issues and submit pull requests.
+
+Feel Free to reach me out at:aiswaryaalluri2004@gmail.com
