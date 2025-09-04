@@ -2,7 +2,7 @@ Real-Time Chat Application
 
 A real-time chat application built using HTML5, CSS3, and JavaScript that enables users to send and receive instant messages in a simple and responsive UI.
 
-🚀 Features
+🚀 Features:
 
 Real-time messaging between multiple users
 
